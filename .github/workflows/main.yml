@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+
+name: First workflow
+
+# Controls when the workflow will run
+on: [push, workflow_dispatch]
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: run simple action
+      - run:  echo "Successful! hello world" 
+    
