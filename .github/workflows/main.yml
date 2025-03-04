@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: run simple action
-      - run:  echo "Successful! hello world" 
+        run:  echo "Successful! hello world" 
     
